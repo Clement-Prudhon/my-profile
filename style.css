@@ -1,0 +1,95 @@
+body {
+	background:#FFFBF7;
+	color:#254173 ;
+	font-family:'Lora', serif;
+	font-size: 17px;
+	line-height: 22px;
+	letter-spacing: 0.3;
+}
+
+h1{
+	color:#658864;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size:32px ;
+	letter-spacing: 0.5px;
+}
+
+h2{
+	color:#E5BA73;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size:26px ;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+a{
+	text-decoration:none ;
+	color:#88A47C ;
+	transition: color 0.3s ease
+}
+
+a:hover {
+	color:darkblue ;
+	text-decoration: underline;
+}
+
+#container{
+	width: 750px;
+	margin: 40px auto;
+
+}
+
+#photo{
+	border-radius:50% ;
+	width: 130px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.card-white{
+	background: white;
+	padding: 50px;
+	margin: 50px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 6px;
+	text-align: center;
+}
+
+@media (max-width: 500px){
+	#container{
+		max-width: 400px;
+	}
+}
+
+#btn-blue {
+	background-color: #88A47C;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 6px;
+	transition: color 0.3s ease
+}
+
+
+
+#list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+#list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+#list-inline i {
+	font-size: 40px;
+}
+
+#list-inline i:hover{
+	color: #254173;
+}
+
+#introduction p{
+	margin-bottom: 50px;
+}
